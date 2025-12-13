@@ -4,166 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oceanfront Condos at Terrasol Resort | Cabo San Lucas</title>
-    <meta name="description" content="Discover Sunrise/Sunset #132 and Beach Nest—stunning 2-bedroom oceanfront condos at Terrasol Beach Resort. Direct beach access, pools, and more.">
+    <meta name="description" content="Luxury beachfront 2-bedroom condos with direct sand access, pools, and sunrise/sunset views in Cabo San Lucas.">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-    <div class="hero">
-        <div class="hero-text">
-            <h1>Terrasol Beach Resort Condos</h1>
-            <p>Oceanfront Rentals • Cabo San Lucas, Mexico</p>
-            <p class="tagline">Watch sunrise and sunset over the ocean—direct beach access at this tranquil gated resort</p>
-        </div>
+<nav class="sticky-nav">
+    <div class="container nav-content">
+        <a href="#home" class="logo">Terrasol Oceanfront</a>
+        <ul>
+            <li><a href="#sunrise-sunset">Sunrise/Sunset #132</a></li>
+            <li><a href="#beach-nest">Beach Nest</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#contact">Inquire</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+        <h1>Terrasol Beach Resort</h1>
+        <p class="tagline">Direct Oceanfront Condos in Cabo San Lucas</p>
+        <p>Watch sunrise and sunset over the waves from your private patio</p>
+        <a href="#contact" class="cta-button">Inquire Now</a>
     </div>
 </header>
 
 <main class="container">
 
-    <section class="summary">
-        <h2>Available Units</h2>
-        <div class="grid">
-            <div>
-                <h3>Sunrise/Sunset #132</h3>
-                <p>Full oceanfront views • Ground floor • Whale watching from bed</p>
+    <section class="intro">
+        <h2>Two Stunning Beachfront Units</h2>
+        <p>Privately owned condos at the tranquil Terrasol Resort—perfect for relaxation, walking distance to downtown Cabo.</p>
+    </section>
+
+    <!-- Unit 1 -->
+    <section id="sunrise-sunset" class="unit-section card">
+        <h2>Sunrise/Sunset #132</h2>
+        <div class="unit-grid">
+            <div class="unit-info">
+                <p><strong>6 guests • 2 beds • 2 baths</strong></p>
+                <p>Full oceanfront with wrap-around patio. Whale watching from bed, direct beach step-off.</p>
+                <a href="#contact" class="cta-button small">Inquire About #132</a>
             </div>
-            <div>
-                <h3>Beach Nest</h3>
-                <p>Partial ocean views • High ceilings • Perfect for couples or families</p>
+            <div class="gallery-grid">
+                <img src="images/patio.jpg" alt="Wrap-around patio ocean view">
+                <img src="images/master-bed.jpg" alt="Master bedroom ocean view">
+                <img src="images/living-room.jpg" alt="Living area">
+                <img src="images/kitchen.jpg" alt="Kitchen">
+                <img src="images/pool.jpg" alt="Palapa pool">
+                <img src="images/beach.jpg" alt="Beach access">
             </div>
         </div>
     </section>
 
-    <!-- Unit 1: Sunrise/Sunset -->
-    <section class="unit-section">
-        <h2 id="sunrise-sunset">Sunrise/Sunset #132</h2>
-        <div class="unit-summary">
-            <div><strong>6 guests</strong></div>
-            <div><strong>2 bedrooms</strong></div>
-            <div><strong>2 bathrooms</strong></div>
-            <div><strong>Direct beach access</strong></div>
-            <div><strong>Wrap-around patio</strong></div>
-            <div><strong>2 pools + palapa bar</strong></div>
-        </div>
-        <div class="description">
-            <p>
-                SUNRISE/SUNSET is one of the few places in the world you can watch the sun rise and set over the ocean right in front of your home. This stunning <strong>oceanfront 2-bedroom / 2-bath condo</strong> was completely renovated with attention to every detail. Step off the expansive wrap-around deck directly onto the sand, watch whales from bed, or walk 15 yards to the palapa pool and restaurant. This ground-floor unit truly has it all.
-            </p>
-        </div>
-        <div class="gallery">
-            <!-- Sunrise/Sunset photos – replace src with your files -->
-            <img src="images/patio.jpg" alt="Wrap-around patio and ocean view">
-            <img src="images/master-bed.jpg" alt="Master bedroom with ocean view">
-            <img src="images/living-room.jpg" alt="Open living area">
-            <img src="images/kitchen.jpg" alt="Fully equipped kitchen">
-            <img src="images/pool.jpg" alt="Palapa pool and swim-up bar">
-            <img src="images/beach.jpg" alt="Direct beach access">
+    <!-- Unit 2 -->
+    <section id="beach-nest" class="unit-section card">
+        <h2>Beach Nest</h2>
+        <div class="unit-grid">
+            <div class="unit-info">
+                <p><strong>4 guests • 2 beds • 2 baths</strong></p>
+                <p>High ceilings, partial ocean views, expansive deck. Family-friendly with private patios.</p>
+                <a href="#contact" class="cta-button small">Inquire About Beach Nest</a>
+            </div>
+            <div class="gallery-grid">
+                <img src="images/beach-nest-patio.jpg" alt="Expansive deck">
+                <img src="images/beach-nest-bedroom.jpg" alt="Master bedroom">
+                <img src="images/beach-nest-kitchen.jpg" alt="Kitchen">
+                <img src="images/beach-nest-living.jpg" alt="Living area">
+                <img src="images/beach-nest-outdoor.jpg" alt="Outdoor lounge">
+                <img src="images/resort-beach.jpg" alt="Resort beach">
+            </div>
         </div>
     </section>
 
-    <!-- Unit 2: Beach Nest -->
-    <section class="unit-section">
-        <h2 id="beach-nest">Beach Nest</h2>
-        <div class="unit-summary">
-            <div><strong>4 guests</strong></div>
-            <div><strong>2 bedrooms</strong></div>
-            <div><strong>2 bathrooms</strong></div>
-            <div><strong>Direct sand access</strong></div>
-            <div><strong>Expansive wrap-around deck</strong></div>
-            <div><strong>Family-friendly extras</strong></div>
-        </div>
-        <div class="description">
-            <p>
-                This quaint yet open-end unit “BEACH NEST” is perched right on the sand. High ceilings, spacious common areas, and 2 roomy master bedrooms—each with their own full private bath—provide privacy and the immediate comfort of home. Direct access to sand and an expansive wrap-around deck for outdoor lounging and dining from the living area or either master bedroom. This 2-Bedroom/2-Bath unit is the perfect BEACH NEST for relaxation and the feeling of home!
-            </p>
-            <p>
-                100% remodeled and tastefully decorated with Cabo comfort furniture and authentic Mexican artwork. The kitchen is fully equipped for all your cooking needs. Partial ocean views from the inside unit and its expansive patio area. The two master bedrooms (both with king-size beds) provide more privacy for couples traveling together. The master bedroom and living room both open onto the patio deck; the second bedroom has its own private patio too. Pullout sofa in the living room for extra sleeping space.
-            </p>
-        </div>
-        <div class="gallery">
-            <!-- Beach Nest photos – replace src with your files -->
-            <img src="images/beach-nest-patio.jpg" alt="Expansive deck at Beach Nest">
-            <img src="images/beach-nest-bedroom.jpg" alt="Master bedroom with private patio">
-            <img src="images/beach-nest-kitchen.jpg" alt="Fully stocked kitchen">
-            <img src="images/beach-nest-living.jpg" alt="Spacious living area">
-            <img src="images/beach-nest-outdoor.jpg" alt="Outdoor lounging area">
-            <img src="images/resort-beach.jpg" alt="Resort beach access">
-        </div>
-    </section>
-
-    <section class="amenities">
-        <h2>Resort & Unit Amenities</h2>
-        <p>Both units offer luxurious features at Terrasol Beach Resort. Highlights below (shared unless noted).</p>
+    <section id="amenities" class="amenities card">
+        <h2>Shared Resort Amenities</h2>
         <ul class="amenities-list">
-            <li>Air Conditioning & Ceiling Fans</li>
-            <li>Fully Equipped Kitchen (pots, pans, blender, coffee maker, dishwasher, oven, etc.)</li>
-            <li>Washer & Dryer</li>
-            <li>High-Quality Linens, Beach Towels & Essentials</li>
-            <li>King Beds in Both Bedrooms + Queen Sofa Bed</li>
-            <li>Wrap-Around Patio/Deck with Ocean Views</li>
-            <li>Satellite TV & Wi-Fi</li>
-            <li>Safe for Valuables</li>
-            <li>Two Pools (one with swim-up palapa bar & restaurant)</li>
-            <li>Outdoor Grill & BBQ Utensils</li>
-            <li>Beach Essentials (towels, chairs, snorkel gear)</li>
-            <li>Gated Resort with 24-Hour Security & Gym</li>
-            <li>Family Extras (crib, pack 'n play – Beach Nest)</li>
-            <li>Home Safety (smoke/CO detectors, first aid kit)</li>
-            <li>Long-Term Stays Welcome</li>
+            <li>Direct beach access & two pools (one with palapa bar)</li>
+            <li>Fully equipped kitchens & washer/dryer</li>
+            <li>King beds, Wi-Fi, satellite TV, A/C</li>
+            <li>Gated 24/7 security & more</li>
         </ul>
     </section>
 
-    <section class="reviews">
+    <section class="reviews card">
         <h2>Guest Reviews</h2>
-        <p>Combined feedback from both units—guests rave about the location, cleanliness, and tranquility.</p>
-        <div class="review">
-            <blockquote>“The views from the main room and master bedroom were gorgeous. Loved listening to the waves on the patio. The condo was well stocked with everything you could think of.”</blockquote>
-            <cite>— TripAdvisor, Sept 2019 (Sunrise/Sunset)</cite>
-        </div>
-        <div class="review">
-            <blockquote>“Perfect Location. Oceanfront and pool/restaurant front! Felt very safe! Nice not seeing the parked cruise ships and enjoyed no vendors.”</blockquote>
-            <cite>— Troy, May 2023 (Sunrise/Sunset)</cite>
-        </div>
-        <div class="review">
-            <blockquote>“This condo was simply awesome! The view from the master bedroom is all ocean. You are lulled to sleep by the crashing waves.”</blockquote>
-            <cite>— Ricky, Feb 2023 (Sunrise/Sunset)</cite>
-        </div>
-        <div class="review">
-            <blockquote>“We love staying at Terrasol… the beds were very comfy and the patio was great. Highly recommend.”</blockquote>
-            <cite>— Carly, Dec 2025 (Beach Nest)</cite>
-        </div>
-        <div class="review">
-            <blockquote>“The condo is spacious and well equipped… perfectly situated between Playa Grande and Grand Solmar. We will be back!”</blockquote>
-            <cite>— Yalonda Michelle, July 2025 (Beach Nest)</cite>
-        </div>
-        <div class="review">
-            <blockquote>“Beautiful place. Great location close to the busy marina area. But far enough away to be very peaceful and relaxing.”</blockquote>
-            <cite>— Ryan, June 2025 (Beach Nest)</cite>
-        </div>
-        <!-- Add more reviews here if space allows – I included a mix of 6 for brevity -->
+        <!-- Keep your existing reviews here -->
     </section>
 
-    <section class="location">
-        <h2>Location</h2>
-        <p>
-            Terrasol Beach Resort is directly on the sand between Grand Solmar and Playa Grande, near Land's End in Cabo San Lucas, Baja California Sur, Mexico. Walking distance to the Marina, downtown Cabo, Medano Beach, hundreds of restaurants, shopping, and nightlife. See both sunrise and sunset over the ocean. Quiet and private (no party vibe)—ideal for couples and families. Taxis/Uber available 24/7; bring walking shoes!
-        </p>
-    </section>
-
-    <section class="contact">
-        <h2>Contact & Inquiries</h2>
-        <p>For details on either unit, please call:</p>
-        <p class="phone">(949) 424-4818 (8 AM – 6 PM PST)<br>Ask for Terrasol Resort Cabo Rentals</p>
-        <p class="note">Privately owned condos at Terrasol Beach Resort. All resort fees, cleaning, and parking are handled directly by the resort.</p>
+    <section id="contact" class="contact card">
+        <h2>Inquire Today</h2>
+        <p>Call for details on either unit:</p>
+        <p class="phone">(949) 424-4818 (8AM–6PM PST)</p>
+        <a href="tel:+19494244818" class="cta-button">Call Now</a>
+        <a href="mailto:your@email.com" class="cta-button secondary">Email Inquiry</a> <!-- Replace with your email -->
     </section>
 
 </main>
 
 <footer>
-    <p>© 2025 Terrasol Beach Resort Condos – Cabo San Lucas</p>
+    <p>© 2025 Terrasol Oceanfront Condos – Cabo San Lucas</p>
 </footer>
 
 </body>
