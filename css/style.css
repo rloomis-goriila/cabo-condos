@@ -40,8 +40,14 @@ a { text-decoration:none; }
 /* Footer */
 footer { background:#0d9488; color:white; text-align:center; padding:40px; }
 
+.review-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:30px; }
+.review { background:#f0f9f8; padding:30px; border-radius:12px; border-left:5px solid #0d9488; }
+.review blockquote { font-style:italic; font-size:1.1rem; margin-bottom:15px; }
+.review cite { display:block; text-align:right; color:#666; font-size:0.9rem; }
+
 @media (max-width:768px) {
     .hero h1 { font-size:3rem; }
     .tagline { font-size:1.5rem; }
     .sticky-nav ul { flex-direction:column; gap:10px; }
 }
+
